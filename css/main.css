@@ -9,17 +9,18 @@
  */
 /*Globales*/
 body{
-    font-family: "quicksand"; sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 /*Fin globales*/
 
 /*Componentes*/
 .title{
-    font-family: "Poiret One"; sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 .container{
     max-width: 800px;
     margin: 0 auto;
+    padding: 1rem;
 }
 .separador{
     display: block;
@@ -57,7 +58,7 @@ body{
 .hero{
     padding: 5rem 0;
     text-align: center;
-    background-image: url("../img/augustine-wong-T0.jpg");
+    background-image: url("../img/fondo_claro.jpg");
     background-size: cover;
     background-position: bottom;/* se puede poner que empiece desde 0 el inicio de la pantalla y luego el porcentaje*/
 }
@@ -68,7 +69,7 @@ body{
     margin-bottom: 0;
 }
 .hero__text{
-    color: gray;
+    color: #6c757d;
     font-size: 1.5rem;
 }
 /*Fin hero*/
